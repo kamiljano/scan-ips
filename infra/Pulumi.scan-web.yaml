@@ -1,0 +1,2 @@
+config:
+  infra:isMinikube: "true"

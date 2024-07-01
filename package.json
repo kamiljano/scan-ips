@@ -7,6 +7,9 @@
     "build": "tsc"
   },
   "keywords": [],
+  "workspaces": [
+    "infra/"
+  ],
   "author": "Kamil Janowski <kgjanowski@gmail.com>",
   "license": "ISC",
   "dependencies": {
