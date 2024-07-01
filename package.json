@@ -1,6 +1,7 @@
 {
   "name": "scan-web",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "start": "bun src/index.ts",
     "test": "vitest run tests",

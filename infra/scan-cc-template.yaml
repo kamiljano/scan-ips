@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: WorkflowTemplate
 metadata:
     name: scan-cc
-    namespace: argo
+    namespace: scanweb
 spec:
     entrypoint: scan-cc
     templates:

@@ -1,4 +1,11 @@
-# Infra prerequisites
+# Infra
+
+## Services
+
+* Harbor - Container registry. Argo Workflows depends on pre-built and published images, so this is where they're gonna be stored
+* Argo Workflows - actually runs your workflow
+
+## Prerequisites
 
 Install the following tools:
 
@@ -40,5 +47,5 @@ kubectl -n argo port-forward deployment/argo-server 2746:2746
 ## Submitting a workflow template
 
 ```shell
-argo template -n argo create ./infra/scan-cc-template.yaml
+argo template -n scanweb create ./infra/scan-cc-template.yaml
 ```
